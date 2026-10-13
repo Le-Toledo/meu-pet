@@ -1,0 +1,44 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Uploads e dados privados
+backend/uploads/
+
+# Node e Expo
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Builds nativos
+ios/
+android/
+
+# Sistema operacional e editores
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Configurações locais de ferramentas
+mobile/.claude/
